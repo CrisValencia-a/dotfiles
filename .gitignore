@@ -1,0 +1,20 @@
+# --- Archivos del sistema y temporales ---
+.DS_Store
+*.swp
+*~
+.netrwhist
+
+# --- Neovim ---
+# Evita subir los plugins instalados, caché y estado de Neovim
+nvim/.config/nvim/.repro/
+nvim/.config/nvim/lazy-lock.json
+
+# --- Tmux ---
+# Si usás Tmux Plugin Manager (TPM), no queremos subir los plugins descargados
+tmux/.tmux/plugins/
+tmux/.config/tmux/plugins/
+
+# --- Historiales de comandos (Opcional pero recomendado por seguridad) ---
+# Si por error migrás archivos de historial, esto evita que se suban a GitHub
+*.zsh_history
+*.bash_history
