@@ -34,7 +34,7 @@ return {
 			keywordStyle = { italic = true },
 			statementStyle = { bold = true },
 			typeStyle = {},
-			transparent = true, -- Mantener el fondo oscuro del tema Dragon
+			transparent = false, -- Mantener el fondo oscuro del tema Dragon
 			dimInactive = false, -- No oscurecer ventanas inactivas
 			terminalColors = true, -- Colores de Kanagawa en el terminal interno
 			colors = {
